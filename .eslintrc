@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "rebem/configs/common",
+    "rebem/configs/babel"
+  ],
+  "rules": {
+    "no-magic-numbers": 0,
+    "no-process-exit": 0,
+    "no-throw-literal": 0,
+    "init-declarations": 0
+  }
+}
