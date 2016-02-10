@@ -3,10 +3,10 @@ import test from 'tape';
 import CLI from '../../lib/';
 
 test('basic', t => {
-    t.equal(
+    t.notEqual(
         typeof CLI,
-        'function',
-        'is a function'
+        'undefined',
+        'exist'
     );
 
     t.end();

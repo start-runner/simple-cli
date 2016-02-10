@@ -8,7 +8,7 @@
   "author": "Kir Belevich <kir@soulshine.in> (https://github.com/deepsweet)",
   "files": [ "build/" ],
   "bin": {
-    "start": "build/cli.js"
+    "start": "build/index.js"
   },
   "main": "build/index.js",
   "dependencies": {
