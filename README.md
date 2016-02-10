@@ -19,7 +19,7 @@ npm i -S start-simple-cli
 ## Usage
 
 ```
-start <tasks file or moduleID to require> <tasks runner name>
+start-runner <tasks file or moduleID to require> <tasks runner name>
 ```
 
 See [documentation](https://github.com/start-runner/start#readme) for details.
