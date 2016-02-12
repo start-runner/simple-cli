@@ -8,8 +8,6 @@
 
 Simple CLI for [Start](https://github.com/start-runner/start).
 
-**Work in progress**, will land with `start@4`. See an [issue](https://github.com/start-runner/start/issues/3) for details.
-
 ## Install
 
 ```
