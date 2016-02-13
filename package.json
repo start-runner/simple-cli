@@ -1,6 +1,6 @@
 {
   "name": "start-simple-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple CLI for Start",
   "keywords": [ "start", "start-cli" ],
   "homepage": "https://github.com/start-runner/simple-cli",
