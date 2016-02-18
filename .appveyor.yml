@@ -1,0 +1,40 @@
+# https://www.appveyor.com/docs/appveyor-yml
+
+version: "{build}"
+
+init:
+  - git config --global core.autocrlf false
+
+shallow_clone: true
+
+clone_depth: 1
+
+environment:
+  matrix:
+    - nodejs_version: "0.12"
+    - nodejs_version: "4"
+    - nodejs_version: "5"
+
+cache:
+  - "%APPDATA%\\npm-cache"
+
+branches:
+  only:
+    - master
+
+skip_tags: true
+
+matrix:
+  fast_finish: true
+
+build: off
+
+install:
+  - ps: Install-Product node $env:nodejs_version
+  - npm install -g npm
+  - npm install
+
+test_script:
+  - node --version
+  - npm --version
+  - npm start ci
