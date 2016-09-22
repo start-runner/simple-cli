@@ -37,4 +37,4 @@ install:
 test_script:
   - node --version
   - npm --version
-  - npm start ci
+  - npm start test
