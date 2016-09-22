@@ -1,13 +1,13 @@
 import test from 'tape';
-
-import CLI from '../../lib/';
+import execa from 'execa';
 
 test('basic', t => {
-    t.notEqual(
-        typeof CLI,
-        'undefined',
-        'exist'
-    );
-
-    t.end();
+    execa('babel-node', [ './lib/index.js' ]).catch((error) => {
+        t.notEqual(
+            error.message.indexOf('Unable to find "tasks.js" file, please check it again'),
+            -1,
+            'should throw'
+        );
+        t.end();
+    });
 });
