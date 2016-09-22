@@ -2,16 +2,22 @@
   "name": "start-simple-cli",
   "version": "2.0.0",
   "description": "Simple CLI for Start",
-  "keywords": [ "start", "start-cli" ],
+  "keywords": [
+    "start",
+    "start-cli"
+  ],
   "homepage": "https://github.com/start-runner/simple-cli",
   "repository": "start-runner/simple-cli",
   "author": "Kir Belevich <kir@soulshine.in> (https://github.com/deepsweet)",
-  "files": [ "build/" ],
+  "files": [
+    "build/"
+  ],
   "bin": {
     "start-runner": "build/index.js"
   },
   "main": "build/index.js",
   "dependencies": {
+    "commander": "^2.9.0",
     "req-cwd": "^1.0.1"
   },
   "devDependencies": {
