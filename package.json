@@ -35,7 +35,7 @@
     "tape": "^4.6.0"
   },
   "scripts": {
-    "start": "start-runner start-start-preset",
+    "start": "start-runner -p start-start-preset",
     "prepush": "npm start test",
     "prepublish": "npm start build"
   },
