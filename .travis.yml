@@ -13,4 +13,4 @@ branches:
     - /^greenkeeper-.*$/
 matrix:
   fast_finish: true
-script: yarn start ci
+script: yarn start test

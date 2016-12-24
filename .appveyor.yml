@@ -23,4 +23,4 @@ install:
   - ps: Install-Product node $env:nodejs_version
   - yarn
 test_script:
-  - yarn start ci
+  - yarn start test
