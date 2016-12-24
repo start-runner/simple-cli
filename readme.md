@@ -9,8 +9,10 @@ Simple CLI for [Start](https://github.com/start-runner/start).
 
 ## Install
 
-```
-npm i -D start-simple-cli
+```sh
+npm install --save-dev start-simple-cli
+# or
+yarn add --dev start-simple-cli
 ```
 
 ## Usage
