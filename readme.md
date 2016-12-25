@@ -18,13 +18,13 @@ yarn add --dev start-simple-cli
 ## Usage
 
 ```
-Usage: start-runner [options] <tasks runner>
+  Usage: index [options] <tasks runner> [arguments]
 
-Options:
+  Options:
 
-  -h, --help              output usage information
-  -f, --file, <file>      tasks file path, tasks.js by default
-  -p, --preset, <preset>  tasks preset
+    -h, --help              output usage information
+    -f, --file, <file>      tasks file path, tasks.js by default
+    -p, --preset, <preset>  tasks preset
 ```
 
 See [documentation](https://github.com/start-runner/start#readme) for details.
