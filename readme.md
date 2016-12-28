@@ -5,7 +5,7 @@
 [![windows build](https://img.shields.io/appveyor/ci/start-runner/simple-cli/master.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/simple-cli)
 [![deps](https://img.shields.io/gemnasium/start-runner/simple-cli.svg?style=flat-square)](https://gemnasium.com/start-runner/simple-cli)
 
-Simple CLI for [Start](https://github.com/start-runner/start).
+Simple CLI for [Start](https://github.com/start-runner/start). Using ES6+? Try [start-babel-cli](https://github.com/start-runner/babel-cli).
 
 ## Install
 
